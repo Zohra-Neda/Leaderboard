@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: yellowgreen;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-container {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .flex-item {
+    width: unset;
+  }
+
+  section {
+    margin-bottom: 1rem;
+  }
+}
+
+body {
+  font-family: 'Roboto', 'Courier New', Courier, monospace;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-center {
+  align-items: center;
+}
+
+.flex-row-center {
+  justify-content: center;
+}
+
+.main-container {
+  width: 100%;
+}
+
+.flex-item {
+  width: 50%;
+}
+
+.header {
+  align-self: start;
+  font-family: 'Oswald', 'Courier New', Courier, monospace;
+  letter-spacing: 0.05rem;
+}
+
+.bi-arrow-clockwise {
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.header > * {
+  padding: 1rem;
+  user-select: none;
+}
+
+.result {
+  width: 70%;
+}
+
+.result-message {
+  text-align: center;
+}
+
+.scores-header {
+  font-family: 'Oswald', 'Courier New', Courier, monospace;
+  letter-spacing: 0.05rem;
+  margin-bottom: 1rem;
+}
+
+.scores-header > h2 {
+  margin-right: 1rem;
+}
+
+.scores {
+  padding: 0.4rem 0.8rem;
+  overflow-y: auto;
+  height: 100%;
+  border: 0.15rem solid #fff;
+  border-radius: 0.4rem;
+}
+
+.scores-section > div {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.score-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.4rem 0;
+}
+
+.input-section header {
+  text-align: center;
+  font-family: 'Oswald', 'Courier New', Courier, monospace;
+  letter-spacing: 0.05rem;
+}
+
+.input-section input {
+  padding: 0.8rem;
+  font-size: 1rem;
+  outline: none;
+  border: 0.15rem solid #fff;
+  border-radius: 0.4rem;
+}
+
+.input-section input:focus {
+  border-color: white;
+}
+
+.input-section div * {
+  margin-bottom: 1rem;
+}
+
+.input-section div {
+  width: 65%;
+}
+
+#form {
+  margin: 0;
+}
+
+#name,
+#score {
+  align-self: stretch;
+}
+
+.submit-button {
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: 0.15rem solid #fff;
+  border-radius: 0.4rem;
+  background-color: yellowgreen;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: scale 0.1s;
+  align-self: flex-end;
+}
+
+.submit-button:hover {
+  background-color: #fff;
+  color: yellowgreen;
+  border-color: yellowgreen;
+  scale: 1.05;
+}
+
+#result {
+  padding: 0.25rem;
+}
+
+.refresh-button {
+  border: none;
+  background-color: #fff;
+  color: yellowgreen;
+  border-radius: 0.4rem;
+  padding: 0 0.5rem;
+}
+
+.refresh-button:hover {
+  border-color: #fff;
+  background-color: rgb(133, 169, 62);
+  color: #fff;
+}
+
+.refresh-button:active {
+  scale: 1.1;
+}
+
+i {
+  color: inherit;
+  background-color: transparent;
+}
