@@ -104,15 +104,11 @@ Example command:
 
 Clone this repository to your desired folder:
 
-<!--
 Example commands:
 
-```sh
   cd my-folder
-
+  
   git clone https://github.com/Zohra-Neda/Leaderboard.git
-```
--->
 
 ### Install
 
