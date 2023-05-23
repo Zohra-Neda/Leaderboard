@@ -41,7 +41,6 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -76,21 +75,12 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[Add Task]**
-- **[Remove Task]**
-- **[Edit Task]**
-- **[Display Tasks]**
-- **[Remove All Tasks Checked As Completed]**
-- **[Remove A Selected Task]**
-- **[Using HTML-Webpack-Plugin]**
-- **[Using Webpack CSS-Loader]**
+- **[Add Name]**
+- **[Add Score]**
+- **[Display Names and Scores]**
 
 
 <!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://zohra-neda.github.io/Leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,7 +108,7 @@ Clone this repository to your desired folder:
 Example commands:
 
   cd my-folder
-  https://github.com/Zohra-Neda/Leaderboard.git
+  git clone https://github.com/Zohra-Neda/Leaderboard.git
 
 ### Install
 
@@ -200,6 +190,6 @@ I would like to thank Microverse for initiating the idea behind the project.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./License) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
