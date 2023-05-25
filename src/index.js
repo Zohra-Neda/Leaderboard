@@ -1,4 +1,4 @@
-import './styles/main.css';
+import './style.css';
 
 const apiKey = 'TEQm7e33TDUqUa1vC62t';
 const requestURL = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${apiKey}/scores`;
