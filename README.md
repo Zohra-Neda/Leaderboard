@@ -60,16 +60,30 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Leaderboard] <a name="about-project"></a>
 
-**[Leaderboard]** is a website displays scores submitted by different players. It also allows you to submit your score. 
+**[Leaderboard]** The website is designed to showcase the scores of players from all around the world. It features a leaderboard that displays the top scores submitted by players. In addition, the website offers a user-friendly interface that makes it easy to submit your own score and track your progress over time. Whether you're a casual gamer or a serious competitor, this website is the perfect place to show off your skills and connect with other players who share your passion for gaming.
+
+## 🛠 Requirements <a name="built-with"></a>
+### Build a Leaderboard List App Using: <a name="tech-build"></a>
+
+- **HTML5**
+- **CSS3**
+- **JavaScript(ES6)**
+- **[Leaderboard API service](https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3)**
+- **Webpack**
+- **Linters (Lighthouse, Webhint, Stylelint, Eslint)**
+- **Gitflow**
+
 
 ## 🛠 Built With <a name="built-with"></a>
-
 ### Tech Stack <a name="tech-stack"></a>
 
 - **HTML5**
 - **CSS3**
 - **JavaScript(ES6)**
+- **[Leaderboard API service](https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3)**
 - **Webpack**
+- **Linters (Lighthouse, Webhint, Stylelint, Eslint)**
+- **Gitflow**
 
 <!-- Features -->
 
