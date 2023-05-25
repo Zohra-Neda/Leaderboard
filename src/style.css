@@ -1,29 +1,7 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); */
-
 * {
   margin: 0;
   padding: 0;
   color: #000;
-}
-
-@media only screen and (max-width: 768px) {
-  .main-container {
-    flex-direction: column-reverse;
-    width: 100%;
-  }
-
-  .flex-item {
-    width: unset;
-  }
-
-  section {
-    margin-bottom: 1rem;
-  }
-
-  .header {
-    margin-left: 2rem;
-  }
 }
 
 body {
@@ -53,29 +31,15 @@ body {
 
 .flex-item {
   width: 50%;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .header {
   align-self: start;
+  font-size: 28px;
   letter-spacing: 0.05rem;
-  margin-top: 3rem;
+  margin-top: 1rem;
   margin-left: 14rem;
-}
-
-button {
-  padding: 0.5rem 1rem;
-  outline: none;
-  border-radius: 0.4rem;
-  background-color: #fff;
-  color: #000;
-  font-weight: bold;
-  font-size: 1rem;
-  transition: scale 0.1s;
-  align-self: flex-end;
-  border: 6px solid #000;
-  border-top: 2px solid #000;
-  border-left: 2px solid #000;
 }
 
 .header > * {
@@ -128,6 +92,7 @@ li {
 .input-section header {
   text-align: center;
   letter-spacing: 0.05rem;
+  font-size: 22px;
 }
 
 .input-section input {
@@ -136,10 +101,6 @@ li {
   outline: none;
   border: 2px solid #000;
   width: 100%;
-}
-
-.input-section input:focus {
-  border-color: white;
 }
 
 .input-section div * {
@@ -161,8 +122,8 @@ li {
 
 .submit-button {
   padding: 0.5rem 1rem;
+  margin-right: -29px;
   outline: none;
-  border-radius: 0.4rem;
   background-color: #fff;
   color: #000;
   font-weight: bold;
@@ -174,10 +135,7 @@ li {
   border-left: 2px solid #000;
 }
 
-.submit-button:hover {
-  background-color: #fff;
-  color: #000;
-  border-color: #000;
+.submit-button:active {
   scale: 1.05;
 }
 
@@ -187,8 +145,8 @@ li {
 
 .refresh-button {
   padding: 0.5rem 1rem;
+  margin-right: -30px;
   outline: none;
-  border-radius: 0.4rem;
   background-color: #fff;
   color: #000;
   font-weight: bold;
@@ -200,17 +158,25 @@ li {
   border-left: 2px solid #000;
 }
 
-.refresh-button:hover {
-  border-color: #000;
-  background-color: #fff;
-  color: #000;
-}
-
 .refresh-button:active {
   scale: 1.1;
 }
 
-i {
-  color: inherit;
-  background-color: transparent;
+@media only screen and (max-width: 768px) {
+  .main-container {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .flex-item {
+    width: unset;
+  }
+
+  section {
+    margin-bottom: 1rem;
+  }
+
+  .header {
+    margin-left: 2rem;
+  }
 }
