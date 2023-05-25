@@ -1,14 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); */
 
 * {
   margin: 0;
   padding: 0;
-  background-color: yellowgreen;
-  color: #fff;
+  color: #000;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .main-container {
     flex-direction: column-reverse;
     width: 100%;
@@ -21,10 +20,15 @@
   section {
     margin-bottom: 1rem;
   }
+
+  .header {
+    margin-left: 2rem;
+  }
 }
 
 body {
-  font-family: 'Roboto', 'Courier New', Courier, monospace;
+  font-family: 'comic Sans MS', sans-serif;
+  font-weight: 700;
 }
 
 .flex-container {
@@ -44,22 +48,34 @@ body {
 }
 
 .main-container {
-  width: 100%;
+  width: 70%;
 }
 
 .flex-item {
   width: 50%;
+  margin-top: 4rem;
 }
 
 .header {
   align-self: start;
-  font-family: 'Oswald', 'Courier New', Courier, monospace;
   letter-spacing: 0.05rem;
+  margin-top: 3rem;
+  margin-left: 14rem;
 }
 
-.bi-arrow-clockwise {
-  font-weight: 900;
-  font-size: 24px;
+button {
+  padding: 0.5rem 1rem;
+  outline: none;
+  border-radius: 0.4rem;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: scale 0.1s;
+  align-self: flex-end;
+  border: 6px solid #000;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
 }
 
 .header > * {
@@ -76,7 +92,6 @@ body {
 }
 
 .scores-header {
-  font-family: 'Oswald', 'Courier New', Courier, monospace;
   letter-spacing: 0.05rem;
   margin-bottom: 1rem;
 }
@@ -89,8 +104,8 @@ body {
   padding: 0.4rem 0.8rem;
   overflow-y: auto;
   height: 100%;
-  border: 0.15rem solid #fff;
-  border-radius: 0.4rem;
+  width: 100%;
+  border: 3px solid #000;
 }
 
 .scores-section > div {
@@ -99,15 +114,19 @@ body {
   height: 100%;
 }
 
-.score-item {
+li {
+  list-style-type: none;
+}
+
+.list-item:nth-child(2n) {
   display: flex;
   justify-content: space-between;
+  background-color: #ddd;
   margin: 0.4rem 0;
 }
 
 .input-section header {
   text-align: center;
-  font-family: 'Oswald', 'Courier New', Courier, monospace;
   letter-spacing: 0.05rem;
 }
 
@@ -115,8 +134,8 @@ body {
   padding: 0.8rem;
   font-size: 1rem;
   outline: none;
-  border: 0.15rem solid #fff;
-  border-radius: 0.4rem;
+  border: 2px solid #000;
+  width: 100%;
 }
 
 .input-section input:focus {
@@ -143,19 +162,22 @@ body {
 .submit-button {
   padding: 0.5rem 1rem;
   outline: none;
-  border: 0.15rem solid #fff;
   border-radius: 0.4rem;
-  background-color: yellowgreen;
+  background-color: #fff;
+  color: #000;
   font-weight: bold;
   font-size: 1rem;
   transition: scale 0.1s;
   align-self: flex-end;
+  border: 6px solid #000;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
 }
 
 .submit-button:hover {
   background-color: #fff;
-  color: yellowgreen;
-  border-color: yellowgreen;
+  color: #000;
+  border-color: #000;
   scale: 1.05;
 }
 
@@ -164,17 +186,24 @@ body {
 }
 
 .refresh-button {
-  border: none;
-  background-color: #fff;
-  color: yellowgreen;
+  padding: 0.5rem 1rem;
+  outline: none;
   border-radius: 0.4rem;
-  padding: 0 0.5rem;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: scale 0.1s;
+  align-self: flex-end;
+  border: 6px solid #000;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
 }
 
 .refresh-button:hover {
-  border-color: #fff;
-  background-color: rgb(133, 169, 62);
-  color: #fff;
+  border-color: #000;
+  background-color: #fff;
+  color: #000;
 }
 
 .refresh-button:active {
